@@ -28,7 +28,9 @@ input[type="text"] {
   padding-right: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 25rem;
+  width: 43rem;
+  align-items: center;
+  align-content: center;
   border-radius: 5px;
   border: 1px solid black;
 }
@@ -57,7 +59,7 @@ label {
   font-weight:lighter;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 732px) {
   h1 {
       font-size: 150%;
       margin: auto;
@@ -69,6 +71,12 @@ label {
   }
   
   input[type="text"] {
-    width:18rem;
+    width:90%;
+  }
+
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
   }
 }
